@@ -15,11 +15,14 @@
   background-color: #0078ff;
 }
 body{
-    height: 5000px;
     background-color:#f5f5f5;
+}
+.extra-margin{
+  padding-top: 80px;
 }
 /* ------------------------------------- */
 
+/* -----------------nav 1-------------------- */
 .underLine:hover{
   color: #fffd ;
 }
@@ -74,6 +77,8 @@ background-color: rgba(0, 0, 0, 0.216);
   right: auto;
   left: 110%;
 }
+/* -----------------nav 1-------------------- */
+
 /* ---------home---------- */
 
 .home{
@@ -312,6 +317,7 @@ cursor: pointer;
   background-color: #0062d3;
 }
 
+/* ----------- Media Q-------------- */
 
 @media screen and (max-width: 992px) {
 
@@ -364,7 +370,5 @@ cursor: pointer;
     right: 110%;
     left: auto;
   }
-
-
 
 }
